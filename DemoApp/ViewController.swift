@@ -9,7 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var textField: UITextField!
+    @IBOutlet weak var amendedText: UILabel!
+    
+    @IBAction func onOkButtonPress(_ sender: UIButton) {
+        amendedText.text = textField.text! + "has entered some shit!"
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

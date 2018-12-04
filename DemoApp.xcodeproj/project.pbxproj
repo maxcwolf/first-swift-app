@@ -12,6 +12,7 @@
 		230E5A4321B73BA800DB836D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 230E5A4121B73BA800DB836D /* Main.storyboard */; };
 		230E5A4521B73BAA00DB836D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 230E5A4421B73BAA00DB836D /* Assets.xcassets */; };
 		230E5A4821B73BAA00DB836D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 230E5A4621B73BAA00DB836D /* LaunchScreen.storyboard */; };
+		230E5A5021B7451C00DB836D /* TestDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230E5A4F21B7451C00DB836D /* TestDataTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		230E5A4421B73BAA00DB836D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		230E5A4721B73BAA00DB836D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		230E5A4921B73BAA00DB836D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		230E5A4F21B7451C00DB836D /* TestDataTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDataTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				230E5A3D21B73BA800DB836D /* AppDelegate.swift */,
 				230E5A3F21B73BA800DB836D /* ViewController.swift */,
 				230E5A4121B73BA800DB836D /* Main.storyboard */,
+				230E5A4F21B7451C00DB836D /* TestDataTableViewController.swift */,
 				230E5A4421B73BAA00DB836D /* Assets.xcassets */,
 				230E5A4621B73BAA00DB836D /* LaunchScreen.storyboard */,
 				230E5A4921B73BAA00DB836D /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				230E5A5021B7451C00DB836D /* TestDataTableViewController.swift in Sources */,
 				230E5A4021B73BA800DB836D /* ViewController.swift in Sources */,
 				230E5A3E21B73BA800DB836D /* AppDelegate.swift in Sources */,
 			);
